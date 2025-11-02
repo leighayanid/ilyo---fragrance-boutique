@@ -1,0 +1,24 @@
+{
+  "name": "ilyo-fragrance-boutique",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Luxury fragrance e-commerce platform",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:storefront": "turbo run dev --filter=storefront",
+    "dev:backend": "turbo run dev --filter=@ilyo/medusa-backend",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "latest"
+  },
+  "packageManager": "pnpm@9.14.4",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
