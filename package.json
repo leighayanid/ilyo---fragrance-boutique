@@ -5,6 +5,7 @@
   "description": "Luxury fragrance e-commerce platform",
   "scripts": {
     "dev": "turbo run dev",
+    "dev:all": "turbo run dev --filter=storefront --filter=@ilyo/medusa-backend",
     "dev:storefront": "turbo run dev --filter=storefront",
     "dev:backend": "turbo run dev --filter=@ilyo/medusa-backend",
     "build": "turbo run build",

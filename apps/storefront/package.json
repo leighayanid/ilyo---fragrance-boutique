@@ -14,11 +14,22 @@
   },
   "dependencies": {
     "@medusajs/js-sdk": "latest",
+    "@medusajs/types": "^2.0.2",
     "@nuxtjs/tailwindcss": "latest",
+    "@vee-validate/zod": "^4.15.1",
+    "@vueuse/core": "^14.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.563.0",
     "nuxt": "latest",
+    "radix-vue": "^1.9.17",
     "shadcn-nuxt": "latest",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.15.1",
     "vue": "latest",
-    "vue-tsc": "^2.1.10"
+    "vue-tsc": "^2.1.10",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@nuxt/eslint": "latest",
